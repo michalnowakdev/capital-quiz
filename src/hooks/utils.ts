@@ -45,7 +45,5 @@ export const getRandomPuzzles = (
     maxNumberOfItems * 2
   ).map((randomPuzzleIndex) => puzzles[randomPuzzleIndex]);
 
-  console.log(randomizedPuzzles);
-
   return randomizedPuzzles;
 };
